@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Pendidikan - Irmanova Asriyati</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #bdc3c7;
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            height: 60px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #21618c;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ecf0f1;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portal Media Pendidikan</h1>
+        <p>irmanovaasriyati-code.github.io</p>
+    </header>
+
+    <div class="container">
+        <!-- Menu Siswa -->
+        <div class="card">
+            <h3>Pengumpulan Tugas</h3>
+            <p>Ruang khusus bagi siswa untuk mengunggah tugas harian, laporan, atau proyek.</p>
+            <!-- Ganti tanda # dengan link Google Form Anda untuk mengumpulkan tugas -->
+            <a href="#" class="btn">Kumpulkan Tugas</a>
+        </div>
+
+        <!-- Menu Guru -->
+        <div class="card">
+            <h3>Jurnal &amp; Materi Guru</h3>
+            <p>Akses materi pembelajaran, modul, silabus, dan jurnal kegiatan harian guru.</p>
+            <!-- Ganti tanda # dengan link Google Drive / Halaman materi -->
+            <a href="#" class="btn">Buka Materi</a>
+        </div>
+
+        <!-- Etalase Karya -->
+        <div class="card">
+            <h3>Etalase Projek Siswa</h3>
+            <p>Kumpulan portofolio dan hasil karya terbaik dari siswa selama masa pembelajaran.</p>
+            <a href="#" class="btn">Lihat Etalase</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Portal Pendidikan Irmanova Asriyati. Dibuat untuk keperluan kelas.</p>
+    </footer>
+
+</body>
+</html>
